@@ -1,0 +1,29 @@
+Help me Create this react component. This is the structure of this React Component:
+
+Homepage Component (props: courseList):
+
+    1. Navbar Component: (props: None)
+    - Display a navbar with a logo and a search bar
+    - Display a login button
+    - Display a logout button
+    - Display a profile button
+    
+        1.1 searchbar component: (props: None)
+
+
+    2. Course Filter Component:
+    - Display a dropdown to filter the courses by category
+    - Display a dropdown to filter the courses by difficulty
+    - Display a dropdown to filter the courses by duration
+
+    3. Course List Component:
+    - Display a list of courses in card format
+    - Each course should have a button to enroll in the course
+    - Each course should have a button to view the course details
+    - Each course should have a button to delete the course
+    - Each course should have a button to edit the course details
+
+Firstly, understand the description and the structure of the Components. Then figure out how to write the Code.
+
+
+    

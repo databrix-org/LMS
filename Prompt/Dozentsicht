@@ -1,0 +1,39 @@
+This is a react app to build a learning management system. 
+Help me Create a react component for the instructor. This is the structure of this React Component:
+
+Create Course Component ():
+    i. only instructor and staff can visit this page
+    ii. show a button to create a new course
+    iii. show all the courses that the instructor has created
+
+    Navbar Component: ()
+    - the navbar should be the same as the homepage
+
+    Course creation Component:
+    - show this component when the instructor clicks on the create course button
+    - Display a form to create a new course
+    - The form should have the following fields:
+        - Title
+        - Description
+        - Category
+        - Tags
+        - Difficulty Level
+    - show a box, where instructor can add a modul to the course
+
+    Modul Creation Component:
+    - show this component when the instructor clicks on the create modul button
+    - Display a form to create a new modul
+    - The form should have the following fields:
+        - Title
+        - Description
+    - show a box, where instructor can add a lesson to the modul
+    
+        Lesson Creation Component:
+        - show this component when the instructor clicks on the create lesson button
+        - Display a form to create a new lesson
+        - The form should have the following fields:
+            - Title
+            - Description
+
+
+Firstly, understand the description and the structure of the Components. Then figure out how to write the Code.

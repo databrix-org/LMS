@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.alert {
+    width: 400px;
+    border-color: grey;
+    position: fixed;
+    right: 20px;
+    top: 160px;
+    animation: alertFrame 1s;
+    background-color: rgb(13, 110, 253);
+    color: white;
+    z-index: 99;
+}
+
+@keyframes alertFrame {
+    0% {
+        right: -500px;
+    }
+    100% {
+        right: 20px;
+    }
+}
+
+#logout {
+    cursor: pointer;
+}
+
+.main-content {
+    padding-top: 160px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}

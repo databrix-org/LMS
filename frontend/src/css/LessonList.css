@@ -1,0 +1,84 @@
+.lesson-list {
+    padding: 0;
+    margin-left: 300px;
+    margin-top: 26px;
+    height: calc(100vh - 116px);
+    overflow-y: auto;
+    position: relative;
+    width: calc(100% - 300px);
+    background-color: white;
+}
+
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.module-info {
+    flex: 1;
+}
+
+.module-info h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+
+.module-description {
+    margin: 8px 0 0 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.lesson-item {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    gap: 12px;
+}
+
+.lesson-item:hover {
+    background-color: #f8f9fa;
+}
+
+.lesson-list-content {
+    flex: 1;
+    padding-left: 12px;
+}
+
+.lesson-list-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.lesson--meta {
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bullet {
+    color: #666;
+}
+
+.completed-icon {
+    color: #137333;
+    font-size: 25px;
+    min-width: 20px;
+}
+
+.incomplete-icon {
+    color: #808082;
+    font-size: 25px;
+    min-width: 20px;
+} 
